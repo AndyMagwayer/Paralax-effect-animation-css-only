@@ -21,9 +21,31 @@ body {
 
 .paralax_section {
     min-height: 100vh;
-
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    position: relative;
 }
 
-.paralax_bg {}
+.paralax_bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    background-position: center center;
+    z-index: -1;
+    min-height: 100%;
+}
 
-.paralax_section h2 {}
+.paralax_section h2 {
+    color: #fff;
+    margin: 0;
+    font-size: 120px;
+    text-shadow: 2px 2px 2px rgba(0,0,00.4);
+    text-align: center;
+    text-transform: uppercase;
+}
