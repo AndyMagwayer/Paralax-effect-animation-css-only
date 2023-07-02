@@ -15,9 +15,16 @@ body {
     color: #000;
 }
 
-.wrapper_outer {}
+.wrapper_outer {
+  height: 100vh;
+  overflow: hidden;
+}
 
-.wrapper {}
+.wrapper {
+    height: 100%;
+    overflow-x: hidden;
+    perspective: 1px;
+}
 
 .paralax_section {
     min-height: 100vh;
@@ -27,6 +34,8 @@ body {
     justify-content: center;
     width: 100vw;
     position: relative;
+    overflow: hidden;
+    transform-style: preserve-3d;
 }
 
 .paralax_bg {
@@ -39,6 +48,7 @@ body {
     background-position: center center;
     z-index: -1;
     min-height: 100%;
+    transform:translate3d(0,0,-1px) scale(2);
 }
 
 .paralax_section h2 {
