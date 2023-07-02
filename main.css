@@ -1,0 +1,29 @@
+*,
+*::after,
+*::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    font-size: 16px;
+    margin: 0;
+    background: #fff;
+    color: #000;
+}
+
+.wrapper_outer {}
+
+.wrapper {}
+
+.paralax_section {
+    min-height: 100vh;
+
+}
+
+.paralax_bg {}
+
+.paralax_section h2 {}
